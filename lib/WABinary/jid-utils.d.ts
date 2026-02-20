@@ -38,6 +38,9 @@ export declare const isJidUser: (jid: string | undefined) => boolean | undefined
 /** is the jid a group */
 export declare const isLidUser: (jid: string | undefined) => boolean | undefined
 
+/** is the jid a PN (phone number) user */
+export declare const isPnUser: (jid: string | undefined) => boolean | undefined
+
 /** is the jid a broadcast */
 export declare const isJidBroadcast: (jid: string | undefined) => boolean | undefined
 
